@@ -1,0 +1,7 @@
+.env
+node_modules/
+# Protect environment files
+.env
+.env.*
+*.env
+server/anonymous-review-platform.env
