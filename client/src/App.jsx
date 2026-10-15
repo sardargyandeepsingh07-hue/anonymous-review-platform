@@ -25,7 +25,7 @@ function App() {
     setMessage("");
 
     try {
-      const response = await fetch("http://localhost:5001/api/reviews", {
+      const response = await fetch("https://anonymous-review-platform.onrender.com/api/reviews", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
